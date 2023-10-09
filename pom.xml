@@ -8,15 +8,24 @@
 		<version>3.1.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>matheus.dev</groupId>
 	<artifactId>to-do-list</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>to-do-list</name>
 	<description>To do list criado com Java + SpringBoot</description>
+	
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	
 	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
